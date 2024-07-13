@@ -1,0 +1,403 @@
+.main {
+  display: flex;
+  height: 100vh; 
+}
+
+.sidebar {
+  background-color: black;
+  width: 20rem;
+  border-radius: 1rem;
+  margin-right: 5px;
+  flex-shrink: 0; 
+}
+
+.maincontent {
+  background-color:#121212;
+  flex-grow: 2; 
+  border-radius: 1rem;
+  overflow-y: auto;
+}
+  .signupforfree{
+    background-color:rgb(203, 34, 152);
+    color: #fff;
+    position:fixed;
+    bottom: 0px;
+    height:72px;
+    width:100%;
+    display: inline-block;
+    line-height: 2rem;
+    justify-content: space-between;
+ 
+  }
+
+
+.nav{
+    background-color: #121212;
+     border-radius: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:150px;
+    padding: 12 8;
+    margin-top: 12px;
+
+}
+.navoption{
+    margin-bottom: 12px;
+    line-height: 0.5rem;
+    opacity:0.2rem;
+    padding:0.5rem 0.5rem;
+
+}
+.navoption a,i{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+.navoption:hover{
+    opacity:1rem;
+
+}
+.navoption i{
+    font-size: 1.25rem;
+}
+.navoption a{
+    font-size: 1rem;
+}
+.library{
+  background-color: #121212;
+  border-radius: 1rem;
+  margin:0.5rem;
+  padding:0.5rem 0.7rem;
+  overflow:auto;
+  height: 40px;
+  color:#fff;
+  display: flex;
+  justify-content: space-between;
+}
+.library a{
+  font-size: 1rem;
+  display: flex;
+  margin-right: 150px;
+}
+.box{
+  height:13rem;
+  background-color:#232323;
+  border-radius: 0.75rem;
+  margin:0.75 0 0.75 0;
+  padding: 0.75rem 1rem;
+}
+.box1{
+  font-size: 1.10rem;
+  font-weight: 500;
+  
+}
+.badge{
+  background-color: #fff;
+  border:none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  height:2rem;
+}
+.box::-webkit-scrollbar {
+  opacity:1; /* adjust the opacity value as needed */
+}
+.content{
+  height:30px;
+  width:318px;
+  position:sticky;
+  background-color:black;
+  text-decoration:black;
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-between;
+}
+.content a{
+  font-size: 1rem;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  opacity:0.75;
+}
+.cook{
+  height:30px;
+  width:300px;
+  position:sticky;
+  background-color:black;
+  text-decoration:black;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.cook a{
+  font-size: 1rem;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  opacity:0.75;
+}
+.cookies{
+  height:50px;
+  width:318px;
+  position:sticky;
+  background-color:black;
+  text-decoration:black;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.cookies a{
+  font-size: 1rem;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  opacity:0.75;
+}
+.lan{
+  background-color:#fff;
+  border:none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  height:2rem;
+  margin-left:10px;
+}
+.badge1{
+  margin-right: 790px;
+  background-color: #fff;
+  border:none;
+  border-radius: 100px;
+  padding: 8px 32px;
+  font-weight: 700;
+
+}
+.preview, .Signup{
+  margin-left: 10px;
+  opacity:1.5rem;
+}
+.stickybar{
+  position: sticky;
+  top:0;
+  background-color: #121212;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:1rem 0 1rem 0;
+}
+.stickybar, .icons1{
+  margin-left: 0.75rem;
+}
+
+.signupandlogin a{
+  font-size: 1rem;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  opacity:0.75;
+}
+.login{
+  background-color: #fff;
+  border:none;
+  border-radius: 100px;
+  padding: 8px 32px;
+  font-weight: 700;
+}
+.artists{
+  text-decoration: none;
+  color: #fff;
+  margin-top: 12px;
+  margin-left: 12px;
+  justify-content: space-between;
+  font-weight: 200rem;
+  font-size: larger;
+  opacity: 1.7;
+  display: flex;
+  justify-content: space-between; 
+}
+.artists a{
+  text-decoration: none;
+  color: #fff;
+  opacity:0.5;
+  margin-left: auto; 
+}
+.circle-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.one{
+  display: flex;
+  flex-direction:inline-block;
+  justify-content:space-between ;
+
+}
+.pritam h3 {
+  font-size: 18px;
+  margin-top: 2px;
+  margin-left:10px;
+  color: #fff;
+  opacity:2.1;
+}
+
+.pritam p {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 3px;
+  color: #fff;
+  opacity:0.5;
+}
+
+.ArijithSingh h3 {
+  font-size: 18px;
+  margin-top: 2px;
+  margin-left:10px;
+  color: #fff;
+  opacity:2.1;
+}
+
+.ArijithSingh p {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 3px;
+  color: #fff;
+  opacity:0.5;
+}
+.Rahaman h3 {
+  font-size: 18px;
+  margin-top: 2px;
+  margin-left:10px;
+  color: #fff;
+  opacity:2.1;
+}
+
+.Rahaman p {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 3px;
+  color: #fff;
+  opacity:0.5;
+}
+.anirudh h3 {
+  font-size: 18px;
+  margin-top: 2px;
+  margin-left:10px;
+  color: #fff;
+  opacity:2.1;
+}
+
+.anirudh p {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 3px;
+  color: #fff;
+  opacity:0.5;
+}
+.vishal h3 {
+  font-size: 18px;
+  margin-top: 2px;
+  margin-left:10px;
+  color: #fff;
+  opacity:2.1;
+}
+
+.vishal p {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 3px;
+  color: #fff;
+  opacity:0.5;
+}
+.sachin h3 {
+  font-size: 18px;
+  margin-top: 2px;
+  margin-left:10px;
+  color: #fff;
+  opacity:2.1;
+}
+
+.sachin p {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 3px;
+  color: #fff;
+  opacity:0.5;
+}
+.square-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.two{
+  margin-top: 25px;
+  display: flex;
+  flex-direction:inline-block;
+  justify-content:space-between ;
+
+}
+.three{
+  margin-top: 25px;
+  display: flex;
+  flex-direction:inline-block;
+  
+}
+.lovehotel h2 {
+  font-size: 20px;
+  margin-top: 2px;
+  margin-left:10px;
+  color: #fff;
+  opacity:2.1;
+}
+
+.lovehotel p {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 3px;
+  color: #fff;
+  opacity:0.5;
+}
+
+.end1{
+  height:330px;
+  width:310px;
+  background-color:#232323;
+  margin-left: 10px;
+}
+.end1 h2 {
+  font-size: 20px;
+  margin-top: 2px;
+  margin-left:10px;
+  color: #fff;
+  opacity:2.1;
+}
+.end1 a{
+  text-decoration: none;
+  color: #fff;
+  opacity:0.5;
+  margin-left: 24px; 
+}
+.endsection{
+  margin-top: 25px;
+  display: flex;
+  flex-direction:inline-block;
+  justify-content:space-between ;
+}
+
+.end1 i{
+  margin-top: 30px;
+  margin-left: 30px;
+  justify-content: center;
+}
